@@ -53,3 +53,18 @@ Types of cache include
 ## Message Queues
 - A message queue is a communication system used in distributed systems to enable asynchronous message passing between services or components.
 - Instead of sending a request and waiting for a response (synchronous), a producer sends a message to a queue, and the consumer processes it later, decoupling the sender and receiver.
+
+
+# Microservices vs Monoliths
+
+- **Monoliths**: In this kind of architecture there is a single unified codebase where all the components UI, backend, database, etc are all on a single server and scale together
+- **Microservices**: In Microservices we break the application into small independent services that communicate with API calls
+
+## Advantages of Microservices over Monoliths
+- Independent scaling and deployment
+- single point of failures can be minimized because there are more than a single server and because they have fault isolation
+
+
+# Horizontal Scaling vs Vertical Scaling
+- **Vertical Scaling**: increasing the size of the machine ie RAM, CPU cores etc
+- **Horizontal scaling**: increasing the number of machines, need load balancers and code changes for persistent sessions
